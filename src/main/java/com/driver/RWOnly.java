@@ -1,13 +1,18 @@
 package com.driver;
 
 public class RWOnly {
-    private int var1=0;
+    private String name;
 
-    public int getVar1() {
-        return var1;
+
+    public RWOnly() {
+        name="Default value";
     }
 
-    public void setVar1(int var1) {
-        this.var1 = var1;
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }
